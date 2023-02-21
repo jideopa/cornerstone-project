@@ -54,6 +54,13 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core -->
+    <dependency>
+      <groupId>net.serenity-bdd</groupId>
+      <artifactId>serenity-core</artifactId>
+      <version>3.6.12</version>
+    </dependency>
+
 
     <dependency>
       <groupId>org.projectlombok</groupId>
@@ -61,6 +68,7 @@
       <version>1.18.10</version>
       <scope>provided</scope>
     </dependency>
+
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
